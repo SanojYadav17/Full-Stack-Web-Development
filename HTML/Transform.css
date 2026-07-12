@@ -1,0 +1,41 @@
+/* CSS Transforms */
+
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #4dff00ff;
+    border:2px solid black;
+    margin:10px;
+    margin:0 auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ff0000ff;
+}
+
+/* Transform */
+#one{
+    transform: rotate(45deg);
+}
+
+#Two{
+    transform:scale(0.5)
+}
+
+#Three{
+    transform: translate (100px, 100px);
+}
+
+#Four{
+    transform: skew(20deg, 20deg);
+}
+
+#Five{
+    transform: rotate(45deg) translate(150px);
+}
