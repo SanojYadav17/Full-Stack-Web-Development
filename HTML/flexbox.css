@@ -1,0 +1,51 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color:azure;
+    margin: 10px auto;
+    border: 2px solid black;
+/* display:flex;  Contain all elements inside the container */
+    display:flex; 
+
+/*arrangement in row left to right */
+    /* flex-direction:row;  */
+
+/*arrangement in row but direction from right to left */
+    /* flex-direction:row-reverse;   */
+
+/*arrangement in column top to bottom */
+    /* flex-direction:column;  */
+
+/*arrangement in column but direction from bottom to top */
+    flex-direction:column-reverse; 
+
+/* align items to the start of the container */  
+    /* justify-content : flex-start;  */
+
+/* align items to the end of the container */
+    /* justify-content : flex-end;  */
+
+/* align items to the center of the container */
+    /* justify-content : center;  */
+
+/* align items with equal space between them */
+    /* justify-content : space-between;  */
+
+/* align items with equal space around them but on edges half of the around spaces */
+    justify-content : space-around; 
+
+/* align items with equal space between edges and items */
+    /* justify-content : space-evenly;   */
+}
+
+h1{
+    text-align:center;
+}
+
+#container div{
+    height:20px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
