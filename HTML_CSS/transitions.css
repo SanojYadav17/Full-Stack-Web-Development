@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #4dff00ff;
+    margin-top: 10px;
+    margin:0 auto;
+    transition:margin-top 2s ease-in-out 0.2s;
+    transition-duration: 2s;
+    transition-delay: 1s; 
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: #ff0000ff;
+    border-radius: 50px;
+}
