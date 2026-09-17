@@ -33,3 +33,26 @@ console.log(age >= 18);
 console.log(age <= 18);
 console.log(age == 18);
 console.log(age != 18);
+
+
+// Logical Operators
+
+let marks = 80;
+if(marks >=33 && marks >=80){
+  console.log("passed");
+  console.log("A+");
+}
+
+let Result = 34;
+if(Result >33 || Result >80){
+  console.log("passed");
+  console.log("A+");
+}
+
+let result = 34;
+if(!result >33){
+  console.log("passed");
+  console.log("A+");
+}
+
+ 
