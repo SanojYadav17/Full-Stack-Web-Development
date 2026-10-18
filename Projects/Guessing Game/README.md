@@ -54,3 +54,5 @@ Guessing Game/
 ## How to Run
 
 Open `guessingGame.html` in a web browser. No installation is required.
+
+<!-- Guessing Game -->
