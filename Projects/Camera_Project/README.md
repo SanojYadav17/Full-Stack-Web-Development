@@ -44,3 +44,5 @@ No installation or server is required.
 
 This project is a beginner-friendly example of separating webpage content
 (HTML) from presentation (CSS).
+
+<!-- Camera_Project -->
