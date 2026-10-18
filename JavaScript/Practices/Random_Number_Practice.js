@@ -1,0 +1,5 @@
+let num = Math.random();
+  console.log(Math.floor(num * 100) + 1);
+
+
+  
