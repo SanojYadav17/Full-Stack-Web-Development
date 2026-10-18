@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Guessing Game </title>
+  <link rel="stylesheet" href="guessingGame.css">
+</head>
+<body>
+  <main class="game-card">
+    <div class="game-icon" aria-hidden="true">?</div>
+    <p class="eyebrow">Number challenge</p>
+    <h1>Guessing Game</h1>
+    <p class="instructions">
+      Choose a maximum number, then try to find the hidden number.
+    </p>
+
+    <form id="gameForm" class="game-form">
+      <label for="maxNumber">Maximum number</label>
+      <input id="maxNumber" name="maxNumber" type="number" min="2" step="1"
+        placeholder="For example, 100" required>
+      <button id="startButton" type="submit">Start game</button>
+    </form>
+
+    <section id="guessSection" class="guess-section" hidden>
+      <p id="gameStatus" class="game-status"></p>
+      <form id="guessForm" class="game-form">
+        <label for="guessInput">Your guess</label>
+        <input id="guessInput" name="guess" type="number" step="1"
+          placeholder="Enter a number" required>
+        <button type="submit">Check guess</button>
+      </form>
+    </section>
+
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+    <button id="restartButton" class="restart-button" type="button" hidden>
+      Play again
+    </button>
+  </main>
+
+  <script src="guessingGame.js"></script>
+</body>
+</html>
