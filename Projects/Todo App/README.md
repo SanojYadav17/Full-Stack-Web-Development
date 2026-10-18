@@ -53,3 +53,5 @@ This project helps practise DOM manipulation, event handling, arrays,
 functions and saving data with `localStorage`.
 
 <!-- Todo App -->
+
+<!-- Projects -->
