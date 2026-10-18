@@ -52,3 +52,5 @@ The project uses local files, so no package installation is needed.
 
 This project helps practise CSS layout, card design, image positioning,
 reusable spacing and organising assets for a larger webpage.
+
+<!-- CSS_Project -->
