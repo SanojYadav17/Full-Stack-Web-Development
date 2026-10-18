@@ -41,3 +41,5 @@ No additional setup is needed.
 
 This project is useful for understanding how JavaScript connects with HTML
 elements and how simple game rules can be represented with conditions.
+
+<!-- Tic Tok Game -->
